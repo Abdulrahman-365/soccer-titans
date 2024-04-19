@@ -1,5 +1,5 @@
 # SOCCER TITANS
- Soccer Titans is a site built to aspire football players who dream of playing with the best. The site offers a responsive design that ensures a seamless browsing experience across all devices. It helps football players with everything they need to know about our club, from our mission to our games, and learn how they can join us.
+Soccer Titans is a site built to aspire football players who dream of playing with the best. The site offers a responsive design that ensures a seamless browsing experience across all devices. It helps football players with everything they need to know about our club, from our mission to our games, and learn how they can join us.
 
 ## CONTENTS
 * [User Experience (UX)](#User-Experience-(UX))
@@ -40,7 +40,7 @@
 ## User Experience (UX)
 
 ### Site Goals
- The goal of the website is to showcase the team and provide easy sign up process for users that would be of interest in joining the Soccer Titans. The site should be easy to navigate and satisfactory looking. The prospective players should be able to sign up easily and the administrator should be able to add features or make changes to the site.
+The goal of the website is to showcase the team and provide easy sign up process for users that would be of interest in joining the Soccer Titans. The site should be easy to navigate and satisfactory looking. The prospective players should be able to sign up easily and the administrator should be able to add features or make changes to the site.
 
 ### User Stories
 
@@ -71,6 +71,19 @@
 - - -
 
 ## Design
+
+### Wireframes
+Wireframes created for mobile, tablet and desktop.
+
+[Mobile Wireframes For all pages](/docs/wireframes/mobilewireframes.png)
+
+[Tablet Wireframes for 'Home' and 'About Us' page](/docs/wireframes/tabletwireframes-pages-1&2.png)
+
+[Tablet Wireframes for 'Fixture' and 'Join Us' page](/docs/wireframes/tabletwireframes-pages-3&4.png)
+
+[Desktop Wireframes for 'Home' and 'About Us' page](/docs/wireframes/desktopwireframes-pages-1&2.png)
+
+[Desktop Wireframes for 'Fixture' and 'Join Us' page](/docs/wireframes/desktopwireframes-pages-3&4.png)
 
 
 

@@ -148,7 +148,7 @@ All images used are created using AI. The link of the source website is mentione
 </details>
 
 <details>
-<summary>Fixture Page Image</summary>
+<summary>About Us Page Image</summary>
 <br>
 
 ![About Us Page Image](/readme-files/site-images/about-us.jpg)

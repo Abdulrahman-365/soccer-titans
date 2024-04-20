@@ -71,15 +71,15 @@ The goal of the website is to showcase the team and provide easy sign up process
 ### Wireframes
 Wireframes created for mobile, tablet and desktop.
 
-[Mobile Wireframes For all pages](/docs/wireframes/mobilewireframes.png)
+[Mobile Wireframes For all pages](/readme-files/wireframes/mobilewireframes.png)
 
-[Tablet Wireframes for 'Home' and 'About Us' page](/docs/wireframes/tabletwireframes-pages-1&2.png)
+[Tablet Wireframes for 'Home' and 'About Us' page](/readme-files/wireframes/tabletwireframes-pages-1&2.png)
 
-[Tablet Wireframes for 'Fixture' and 'Join Us' page](/docs/wireframes/tabletwireframes-pages-3&4.png)
+[Tablet Wireframes for 'Fixture' and 'Join Us' page](/readme-files/wireframes/tabletwireframes-pages-3&4.png)
 
-[Desktop Wireframes for 'Home' and 'About Us' page](/docs/wireframes/desktopwireframes-pages-1&2.png)
+[Desktop Wireframes for 'Home' and 'About Us' page](/readme-files/wireframes/desktopwireframes-pages-1&2.png)
 
-[Desktop Wireframes for 'Fixture' and 'Join Us' page](/docs/wireframes/desktopwireframes-pages-3&4.png)
+[Desktop Wireframes for 'Fixture' and 'Join Us' page](/readme-files/wireframes/desktopwireframes-pages-3&4.png)
 
 
 

@@ -46,26 +46,22 @@ The goal of the website is to showcase the team and provide easy sign up process
 
 #### As a User:
 * To be able to access the site using the site address and from different platforms.
-* To be able to easily navigate through dropdown menu bar (if using mobile devices) and easily access every page by clicking respective bar.
-* To be able to easily navigate through the expanded menu bars (if using larger devices) and easily access every page by clicking respective bar.
-* To be able to view every information on the 'Home' page such as the hero section, the why section and the schedule section.
+* To be able to easily navigate the site from the menu bar and easily access every page by clicking respective bar.
 * To be able to skip to and access the 'Join us' page if clicked on the join button on the hero section.
 * To be able to view the page header regardless the position of the page I'm at.
 * To able to view the footer from all pages, click on the social media icons and open them on a different page.
-* To be able to view every information on the 'About Us' page such as the team mission, values and players.
-* To be able to view every information on the 'Fixture' page such as matches, results and table.
+* To be able to view all information on all pages.
 * To be able to return to 'Home' page by clicking on the page title 'Soccer titans' of the page header. Also be able to access by clicking 'Home' link from the menu bar.
-* To be able to sign up for the team on the 'Join Us' page by filling in the form my first name, last name and email address.
-* To be able to choose the position I play when filling in the form.
+* To be able to sign up for the team on the 'Join Us' page by filling in the form my first name, last name and email address and chosing position.
 * To be able to submit the form.
-* To be able to view submitted data once filled in all fields of the form clicked the submit button.
+* To be able to view submitted data once filled in all fields of the form and clicked the submit button.
 * To be able to click the map on 'Join Us' page, open it on a different page and view the address of the team.
 
 #### A an Administrator:
 * To be able to add new features.
 * To be able to edit existing features.
 * To be able to update the website.
-* To be able to allow or hide contents the user.
+* To be able to allow or hide contents from the user.
 * To be able to control what data to be captured in the form from the user.
 
 - - -

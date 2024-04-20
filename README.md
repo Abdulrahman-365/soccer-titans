@@ -34,6 +34,8 @@ Soccer Titans is a site built to aspire football players who dream of playing wi
     * [Testing User Stories](#Testing-User-Stories)
     * [Multi-Platform Testing](#Multi-Platform-Testing)
 
+* [Credits](#Credits)
+
 - - -
 
 
@@ -68,18 +70,112 @@ The goal of the website is to showcase the team and provide easy sign up process
 
 ## Design
 
+### Features
+.... To be done ....
+
 ### Wireframes
 Wireframes created for mobile, tablet and desktop.
 
-[Mobile Wireframes For all pages](/readme-files/wireframes/mobilewireframes.png)
+<details>
+<summary>Mobile Wireframes For all pages</summary>
+<br>
 
-[Tablet Wireframes for 'Home' and 'About Us' page](/readme-files/wireframes/tabletwireframes-pages-1&2.png)
+![Mobile Wireframes For all pages](/readme-files/wireframes/mobilewireframes.png)
+</details>
 
-[Tablet Wireframes for 'Fixture' and 'Join Us' page](/readme-files/wireframes/tabletwireframes-pages-3&4.png)
 
-[Desktop Wireframes for 'Home' and 'About Us' page](/readme-files/wireframes/desktopwireframes-pages-1&2.png)
+<details>
+<summary>Tablet Wireframes for 'Home' and 'About Us' page</summary>
+<br>
 
-[Desktop Wireframes for 'Fixture' and 'Join Us' page](/readme-files/wireframes/desktopwireframes-pages-3&4.png)
+![Tablet Wireframes for 'Home' and 'About Us' page](/readme-files/wireframes/tabletwireframes-pages-1&2.png)
+</details>
+
+<details>
+<summary>Tablet Wireframes for 'Fixtures' and 'Join Us' page</summary>
+<br>
+
+![Tablet Wireframes for 'Fixture' and 'Join Us' page](/readme-files/wireframes/tabletwireframes-pages-3&4.png)
+</details>
+
+<details>
+<summary>Desktop Wireframes for 'Home' and 'About Us' page</summary>
+<br>
+
+![Desktop Wireframes for 'Home' and 'About Us' page](/readme-files/wireframes/desktopwireframes-pages-1&2.png)
+</details>
+
+<details>
+<summary>Desktop Wireframes for 'Fixture' and 'Join Us' page</summary>
+<br>
+
+![Desktop Wireframes for 'Fixture' and 'Join Us' page](/readme-files/wireframes/desktopwireframes-pages-3&4.png)
+</details>
+
+### Color Schemes
+Chose the color palettes based on the hero image photo, ensuring the colors reflect the energy and passion of football environment, with different colours.
+
+<details>
+<summary>Click to view Color Palettes</summary>
+<br>
+
+![Colour Palette](/readme-files/Color-Palettes.png)
+</details>
+
+### Typography
+
+Used Google Fonts to import the fonts that will be used in the website. The font chosen is Noto sans, which is a Sans Serif font.
+
+<details>
+<summary>Click to view Font Style</summary>
+<br>
+
+![Light, 300](/readme-files/fonts/noto-light.png)
+![Regular, 400](/readme-files/fonts/noto-regular.png)
+![Bold, 700](/readme-files/fonts/noto-bold.png)
+</details>
+
+### Imagery
+All images used within the site has been chosen to showcase the beautiful nature of soccer field.
+
+All images used are created using AI. The link of the source website is mentioned in the credits section.
+
+<details>
+<summary>Hero Image</summary>
+<br>
+
+![Hero Image](/readme-files/site-images/hero-image.jpg)
+</details>
+
+<details>
+<summary>Fixture Page Image</summary>
+<br>
+
+![About Us Page Image](/readme-files/site-images/about-us.jpg)
+</details>
+
+<details>
+<summary>Fixture Page Image</summary>
+<br>
+
+![Fixture Page Image](/readme-files/site-images/fixtures.jpg)
+</details>
+
+<details>
+<summary>Join US Page Image</summary>
+<br>
+
+![Join Us Page Image](/readme-files/site-images/join-us.jpg)
+</details>
+
+### Accessibility
+The following has been done to ensure that the website is as accessible friendly as possible.
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+
+- - -
 
 
 

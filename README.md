@@ -12,7 +12,7 @@ Soccer Titans is a site built to aspire football players who dream of playing wi
     * [Features](#Features)
     * [Wireframes](#Wireframes)
     * [Color Schemes](#Color-Schemes)
-    * [Typography](#Tepography)
+    * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Accessibility](#Accessibility)
 

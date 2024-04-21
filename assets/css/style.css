@@ -1,0 +1,21 @@
+header {
+    background-color: #E2C388;
+    padding: 0 1rem;
+    font-family: 'Noto-Sans', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header a, nav a {
+    text-decoration: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}

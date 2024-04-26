@@ -1,21 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset browser default styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #365B6D; /* Main text color */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Header */
 header {
-    background-color: #E2C388;
+    background-color: #BEC6C9;
     padding: 0 1rem;
-    font-family: 'Noto-Sans', sans-serif;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #0C180A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
+#logo, .fa-solid {
     text-transform: uppercase;
-}
-
-header a, nav a {
+    letter-spacing: 2px;
+    color: #365B6D; /* Logo and icon color */
     text-decoration: none;
+    font-size: 24px;
 }
 
-#nav-toggle:checked~nav {
+.fa-bars, .fa-futbol {
+    color: #94A112;
+}
+
+header a {
+    text-decoration: none;
+    color: #365B6D; /* Header link color */
+}
+
+/* Navigation */
+nav {
+    position: absolute;
+    background-color: #BEC6C9; /* Navigation background color */
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #0C180A;
+    display: none;
+    top: 100%;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu li {
+    padding: 10px 0px;
+    text-align: start;
+    border: 2px solid transparent; /* Add transparent border initially */
+    transition: border-color 0.3s; /* Smooth transition for border color change */
+}
+
+#menu li:hover {
+    color: #94A112; /* Change border color on hover */
+}
+
+#menu a.active li {
+    border-color: #94A112; /* Border color for the selected menu item */
+    border-radius: 50%;
+    padding: 10px 15px; /* Ensure consistent padding for selected item */
+    color: #94A112; /* Selected menu item text color */
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#nav-toggle:checked ~ nav {
     display: block;
 }
 
 #nav-toggle {
     display: none;
+}
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+#footer-links {
+    background-color: #BEC6C9;
+    text-align: unset;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#footer-links i {
+    font-size: 160%;
+    padding: 5%;
+    color: #94A112; /* Footer icon color */
 }

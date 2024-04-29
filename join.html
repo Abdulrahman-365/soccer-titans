@@ -19,23 +19,49 @@
 
         <nav>
             <ul id="menu">
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="about.html">
-                    <li>About Us</li>
-                </a>
-                <a href="fixture.html">
-                    <li>Fixture</li>
-                </a>
-                <a href="join.html" class="active">
-                    <li>Join Us</li>
-                </a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="fixture.html">Fixture</a></li>
+                <li><a href="join.html" class="active">Join Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>Main Content</main>
+    <main>
+        <section id="join-us">
+            <form id="sign-up" method="post" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-user-pen"></i> Ready to be part of US? Sign Up <i
+                    class="fa-solid fa-arrow-down"></i></h2>
+                <fieldset>
+                    <legend>Fill In</legend>
+
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" class="text-input" name="first-name" required><br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" class="text-input" name="last-name" required><br>
+                    <label for="mobile-number">Mobile Number</label>
+                    <input type="number" id="mobile-number" class="text-input" name="Mobile-number" required><br>
+
+                    <div class="radio-buttons">
+                        <div id="defender-radio">
+                            <label for="defender">Defender</label>
+                            <input type="radio" id="defender" name="Position" value="Defender" required checked><br>
+                        </div>
+                        <div id="midfielder-radio">
+                            <label for="midfielder">Midfielder</label>
+                            <input type="radio" id="midfielder" name="Position" value="Midfielder" required><br>
+                        </div>
+                        <div id="attacker-radio">
+                            <label for="attacker">Attacker</label>
+                            <input type="radio" id="attacker" name="Position" value="Attacker" required><br>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="join-button">Submit</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>

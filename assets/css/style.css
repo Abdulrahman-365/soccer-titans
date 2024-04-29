@@ -143,15 +143,16 @@ main {
 
 /* Container div styling for hero section*/
 .container {
+    margin: 15px 0 10px 0;
     text-transform: uppercase;
-    background-color: rgba(190, 198, 201, 0);
-    color: #ffffff;
+    background-color: rgba(54, 91, 109, 0.6);
+    color: #e2c388;
 }
 
 /* Left div styling */
 .left-div {
     margin-top: 60px;
-    padding: 10px 0.5rem;
+    padding: 0 0.5rem;
     text-align: center;
     font-size: larger;
     font-weight: bold;
@@ -184,7 +185,7 @@ form .join-button:hover {
 
 /* Right div styling */
 .right-div {
-    padding-right: 0.5rem;
+    padding-right: 0 0.5rem;
     text-align: center;
     font-size: larger;
 }

@@ -266,20 +266,22 @@ th {
     background-color: #BEC6C9;
 }
 
+
+
 /* Style when hovering over table rows */
 tr:hover {
     background-color: #94A112;
 }
 
 /* remove border-bottom */
-.no-border td {
+.no-border tr:hover {
     border-bottom: none;
+    background-color: #ffffff !important;
 }
 
-/* Remove hovering 
-.no-border tr:not(:hover) {
-    background-color: #;
-}*/
+.no-border td {
+    border-bottom: none !important;
+}
 
 /* Fixture-page image */
 #together-image {

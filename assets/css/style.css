@@ -1,3 +1,4 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Reset browser default styling */
@@ -12,8 +13,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #365B6D; /* Main text color */
+    color: #365B6D;
     font-family: 'Noto Sans', sans-serif;
+}
+
+/* Hide hidden headings */
+.hidden-heading {
+    display: none;
 }
 
 /* Header */
@@ -29,27 +35,36 @@ header {
     align-items: center;
 }
 
-#logo, .fa-solid {
+/* Logo styling */
+#logo {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #365B6D; /* Logo and icon color */
+    color: #365B6D;
     text-decoration: none;
     font-size: 24px;
 }
 
-.fa-bars, .fa-futbol {
+/* Icon styling */
+.fa-bars,
+.fa-futbol,
+.fa-regular,
+.fa-person,
+.fa-location-dot,
+.fa-user-pen,
+.fa-arrow-down {
     color: #94A112;
 }
 
+/* Link styling within header */
 header a {
     text-decoration: none;
-    color: #365B6D; /* Header link color */
+    color: #365B6D;
 }
 
 /* Navigation */
 nav {
     position: absolute;
-    background-color: #BEC6C9; /* Navigation background color */
+    background-color: #BEC6C9;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -58,53 +73,293 @@ nav {
     top: 100%;
 }
 
+/* Menu styling */
 #menu {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 15px 0;
     display: flex;
     justify-content: space-around;
 }
 
-#menu li {
-    padding: 10px 0px;
-    text-align: start;
-    border: 2px solid transparent; /* Add transparent border initially */
-    transition: border-color 0.3s; /* Smooth transition for border color change */
+/* Menu link styling */
+#menu a {
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
 }
 
-#menu li:hover {
-    color: #94A112; /* Change border color on hover */
+/* Change border color on hover */
+#menu a:hover {
+    color: #94A112;
 }
 
-#menu a.active li {
-    border-color: #94A112; /* Border color for the selected menu item */
-    border-radius: 50%;
-    padding: 10px 15px; /* Ensure consistent padding for selected item */
-    color: #94A112; /* Selected menu item text color */
+/* Style and color selected menu lists */
+#menu .active {
+    border-color: #94A112;
+    border-style: solid;
+    padding: 10px 5px;
+    color: #94A112;
 }
 
+/* Toggle label styling */
 .nav-toggle-label {
     font-size: 2rem;
 }
 
-#nav-toggle:checked ~ nav {
+/* Show navigation when toggle is checked */
+#nav-toggle:checked~nav {
     display: block;
 }
 
+/* Hide toggle input */
 #nav-toggle {
     display: none;
 }
 
 /* Main content */
 main {
-    /* Enlarge main element to push footer down*/
+    /* Enlarge main element to push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+}
+
+/* Hero section */
+#hero {
+    margin-top: 0;
+    height: 400px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    box-shadow: 0px 4px 8px rgba(148, 161, 18, 0.9);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+}
+
+/* Container div styling for hero section*/
+.container {
+    text-transform: uppercase;
+    background-color: rgba(190, 198, 201, 0);
+    color: #ffffff;
+}
+
+/* Left div styling */
+.left-div {
+    margin-top: 60px;
+    padding: 10px 0.5rem;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Join button styling */
+#hero a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #94A112;
+    color: #365B6D;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+/* Change background color on hover */
+#hero a:hover,
+form .join-button:hover {
+    background-color: #7f8c10;
+}
+
+/* Right div styling */
+.right-div {
+    padding-right: 0.5rem;
+    text-align: center;
+    font-size: larger;
+}
+
+/* sections */
+#why-us,
+#schedule,
+#about-us,
+#players,
+#fixture
+#results {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* heading 2 title styling */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+
+/* Paragraph styling */
+#reason p,
+#matches p,
+#mission p,
+#next-matches p
+#recent-matches p {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+/* span element */
+.space-bf {
+    margin-left: 10px;
+}
+
+#about-team {
+    margin-top: 0;
+    height: 450px;
+    width: 100%;
+    background: url("../images/about-us.jpg") no-repeat center center/cover;
+    box-shadow: 0px 4px 8px rgba(148, 161, 18, 0.9);
+}
+
+/* Override heading 2 */
+#mission h2{
+    margin-top: 20px;
+    text-align: start;
+}
+
+/* Align about-us h3 to to the paragraph's padding */
+#mission h3 {
+    padding: 0 20px;
+}
+
+/* Override about-us section for colour styling */
+#mission h2,
+#mission h3,
+#mission p {
+    color: #ffffff;
+}
+
+/* Style table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table headers and data */
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #e2c388;
+}
+
+/* Override th */
+th {
+    background-color: #BEC6C9;
+}
+
+/* Style when hovering over table rows */
+tr:hover {
+    background-color: #94A112;
+}
+
+/* remove border-bottom */
+.no-border td {
+    border-bottom: none;
+}
+
+/* Remove hovering 
+.no-border tr:not(:hover) {
+    background-color: #;
+}*/
+
+/* Fixture-page image */
+#together-image {
+    height: 450px;
+    width: 100%;
+    background: url("../images/fixtures.jpg") no-repeat center center/cover;
+    box-shadow: 0px -15px 8px rgba(148, 161, 18, 0.9);
+}
+
+/* Horizontal rule styling */
+hr {
+    margin-top: 20px;
+    background-color: #365B6D;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Form */
+fieldset{
+    border: 1px solid #94A112;
+}
+
+#join-us {
+    background-image: url("../images/join-us.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 0;
+}
+
+
+#sign-up {
+    color: #e2c388;
+    font-weight: bold;
+    background-color: rgba(54, 91, 109, 0.6);
+    padding: 30px;
+}
+
+
+#sign-up >h2 {
+    color: #e2c388;
+    margin-bottom: 20px;
+    background-position: 100%;
+}
+
+label {
+    margin: 5px 0 5px 5px;
+}
+
+.text-input {
+    background: transparent;
+    width: 80%;
+    color: #365B6D;
+    font-weight: bold;
+    height: 25px;
+    margin: 5px 0 20px 5px;;
+    border: 1px solid #94A112;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    margin: 5px 0 5px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form .join-button {
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #94A112;
+    color: #365B6D;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s;;
 }
 
 /* Footer */
@@ -117,8 +372,49 @@ main {
     list-style-type: none;
 }
 
+/* Footer icon styling */
 #footer-links i {
     font-size: 160%;
     padding: 5%;
-    color: #94A112; /* Footer icon color */
+    color: #94A112;
+}
+
+/* Media Query for 768px and above */
+@media screen and (min-width: 768px) {
+    /* Larger logo size and line height */
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Display navigation */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    /* Adjust menu alignment */
+    #menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Add padding to menu items */
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    /* Hide toggle label */
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Adjust main content margin */
+    main {
+        margin-top: 80px;
+    }
 }

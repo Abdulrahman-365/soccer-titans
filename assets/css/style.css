@@ -143,7 +143,7 @@ main {
 
 /* Container div styling for hero section*/
 .container {
-    margin: 15px 0 10px 0;
+    margin: 15px 5px 10px 0px;
     text-transform: uppercase;
     background-color: rgba(54, 91, 109, 0.6);
     color: #e2c388;
@@ -188,17 +188,27 @@ form .join-button:hover {
     padding-right: 0 0.5rem;
     text-align: center;
     font-size: larger;
+    font-weight: bold;
 }
 
 /* sections */
 #why-us,
 #schedule,
-#about-us,
+#about-team,
 #players,
 #fixture
 #results {
     width: 90%;
     margin: 20px auto;
+}
+
+/* Add an overlay and chnage font color to make it readable */
+#mission {
+    margin: 0 0 4px 0;
+    background-color: rgba(54, 91, 109, 0.6);
+    color: #e2c388;
+    font-weight: bold;
+    text-align: start;
 }
 
 /* heading 2 title styling */
@@ -225,7 +235,7 @@ h2 {
 
 #about-team {
     margin-top: 0;
-    height: 450px;
+    height: 480px;
     width: 100%;
     background: url("../images/about-us.jpg") no-repeat center center/cover;
     box-shadow: 0px 4px 8px rgba(148, 161, 18, 0.9);
@@ -233,20 +243,13 @@ h2 {
 
 /* Override heading 2 */
 #mission h2{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: start;
 }
 
-/* Align about-us h3 to to the paragraph's padding */
-#mission h3 {
-    padding: 0 20px;
-}
-
-/* Override about-us section for colour styling */
-#mission h2,
-#mission h3,
-#mission p {
-    color: #ffffff;
+/* Override heading 2 */
+#fixture h2 {
+    margin-top: 20px;
 }
 
 /* Style table */
@@ -263,11 +266,9 @@ th, td {
 }
 
 /* Override th */
-th {
-    background-color: #BEC6C9;
+#matches table {
+    text-align: center !important;
 }
-
-
 
 /* Style when hovering over table rows */
 tr:hover {
@@ -350,11 +351,13 @@ label {
     justify-content: space-between;
 }
 
+form button  {
+    text-align: center;
+}
 
 form .join-button {
     text-decoration: none;
     margin-top: 20px;
-    text-align: center;
     padding: 10px 20px;
     background-color: #94A112;
     color: #365B6D;
@@ -363,6 +366,27 @@ form .join-button {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.2s;;
+}
+
+#map-outer {
+    padding: 20px 0 30px 0;
+    background-color: rgba(148, 161, 18, 0.6);
+}
+
+#map-outer h2 {
+    color: #365B6D;
+    text-align: center;
+}
+
+#map-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 185px;
+    border: 0;
 }
 
 /* Footer */

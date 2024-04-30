@@ -138,7 +138,6 @@ main {
     position: relative;
     display: flex;
     justify-content: center;
-    /* Center horizontally */
 }
 
 /* Container div styling for hero section*/
@@ -196,8 +195,7 @@ form .join-button:hover {
 #schedule,
 #about-team,
 #players,
-#fixture
-#results {
+#fixture #results {
     width: 90%;
     margin: 20px auto;
 }
@@ -222,8 +220,7 @@ h2 {
 #reason p,
 #matches p,
 #mission p,
-#next-matches p
-#recent-matches p {
+#next-matches p #recent-matches p {
     padding: 0 20px;
     text-align: justify;
 }
@@ -242,9 +239,9 @@ h2 {
 }
 
 /* Override heading 2 */
-#mission h2{
+#mission h2 {
     margin-top: 10px;
-    text-align: start;
+    text-align: center;
 }
 
 /* Override heading 2 */
@@ -259,9 +256,10 @@ table {
 }
 
 /* Style table headers and data */
-th, td {
+th,
+td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #e2c388;
 }
 
@@ -302,7 +300,7 @@ hr {
 }
 
 /* Form */
-fieldset{
+fieldset {
     border: 1px solid #94A112;
 }
 
@@ -322,7 +320,7 @@ fieldset{
 }
 
 
-#sign-up >h2 {
+#sign-up>h2 {
     color: #e2c388;
     margin-bottom: 20px;
     background-position: 100%;
@@ -338,7 +336,8 @@ label {
     color: #ffffff;
     font-weight: bold;
     height: 25px;
-    margin: 5px 0 20px 5px;;
+    margin: 5px 0 20px 5px;
+    ;
     border: 1px solid #94A112;
     border-radius: 2px;
     padding: 0 5px;
@@ -351,7 +350,7 @@ label {
     justify-content: space-between;
 }
 
-form button  {
+form button {
     text-align: center;
 }
 
@@ -365,7 +364,8 @@ form .join-button {
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
-    transition: background-color 0.2s;;
+    transition: background-color 0.2s;
+    ;
 }
 
 #map-outer {
@@ -408,6 +408,7 @@ iframe {
 
 /* Media Query for 768px and above */
 @media screen and (min-width: 768px) {
+
     /* Larger logo size and line height */
     #logo {
         font-size: 200%;
@@ -442,6 +443,88 @@ iframe {
 
     /* Adjust main content margin */
     main {
-        margin-top: 80px;
+        margin-top: 75px;
     }
+
+    #hero {
+        height: 950px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        padding: 0 0 0 0;
+        margin: 200px 0px 400px 0px;
+    }
+
+    #why-us,
+    #schedule,
+    #mission {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #why-us h2 {
+        text-align: left;
+        padding: 0 20px;
+
+    }
+
+    #why-us>div,
+    #mission>div {
+        width: 75%;
+    }
+
+    #schedule>div,
+    #mission>#our-story {
+        text-align: end;
+        align-self: flex-end;
+        padding: 0 20px;
+    }
+
+    #why-us~hr {
+        width: 60%;
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    #mission h2 {
+        text-align: center;
+    }
+
+    #mission div {
+        margin-top: 20px;
+    }
+
+    #mission p {
+        padding: 0;
+    }
+
+    #mission #our-value {
+        padding: 20px 0  20px 20px;
+    }
+    
+    table {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #join-us {
+        height: 700px;
+    }
+    #sign-up {
+        position: relative;
+        max-width: 400px;
+        left: 25%;
+        top: 115px;
+    }
+
+    #map-outer {
+        margin: 0; 
+    }
+
+    
+
 }

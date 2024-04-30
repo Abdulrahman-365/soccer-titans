@@ -1,6 +1,10 @@
 # SOCCER TITANS
 Soccer Titans is a site built to aspire football players who dream of playing with the best. The site offers a responsive design that ensures a seamless browsing experience across all devices. It helps football players with everything they need to know about our club, from our mission to our games, and learn how they can join us.
 
+![Soocer Titans Responsive Image](readme-files/site-images/soccer-titans-responsive.png)
+
+Visit Live Site: [Soccer Titans](https://abdulrahman-365.github.io/soccer-titans/)
+
 ## CONTENTS
 * [User Experience (UX)](#User-Experience-(UX))
     * [Site Goals](#Site-Goals)

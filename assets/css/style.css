@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #365B6D;
+    color: black;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
 
 /* Header */
 header {
-    background-color: #BEC6C9;
+    background-color: black;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -39,7 +39,7 @@ header {
 #logo {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #365B6D;
+    color: white;
     text-decoration: none;
     font-size: 24px;
 }
@@ -58,13 +58,13 @@ header {
 /* Link styling within header */
 header a {
     text-decoration: none;
-    color: #365B6D;
+    color: white;
 }
 
 /* Navigation */
 nav {
     position: absolute;
-    background-color: #BEC6C9;
+    background-color: black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -91,7 +91,7 @@ nav {
 
 /* Change border color on hover */
 #menu a:hover {
-    color: #ffffff;
+    color: #94A112;
 }
 
 /* Style and color selected menu lists */
@@ -99,7 +99,7 @@ nav {
     border-color: #94A112;
     border-style: solid;
     padding: 10px 5px;
-    color: #ffffff;
+    color: #94A112;
 }
 
 /* Toggle label styling */
@@ -142,9 +142,9 @@ main {
 
 /* Container div styling for hero section*/
 .container {
-    margin: 15px 5px 10px 0px;
+    margin: 50px 5px 75px 0px;
     text-transform: uppercase;
-    background-color: rgba(54, 91, 109, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #e2c388;
 }
 
@@ -153,40 +153,37 @@ main {
     margin-top: 60px;
     padding: 0 0.5rem;
     text-align: center;
-    font-size: larger;
     font-weight: bold;
 }
 
 /* Join button styling */
 #hero a {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
     display: inline-block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #94A112;
-    color: #ffffff;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: bold;
     transition: background-color 0.2s;
 }
 
 /* Change background color on hover */
 #hero a:hover,
 form .join-button:hover {
-    background-color: #7f8c10;
+    background-color: gray;
 }
 
 /* Right div styling */
 .right-div {
     padding-right: 0.5rem;
     text-align: center;
-    font-size: larger;
     font-weight: bold;
 }
 
@@ -202,10 +199,9 @@ form .join-button:hover {
 
 /* Add an overlay and chnage font color to make it readable */
 #mission {
-    margin: 0 0 4px 0;
-    background-color: rgba(54, 91, 109, 0.6);
+    margin: 20px 0 4px 0;
+    background-color: rgba(0, 0, 0, 0.6);
     color: #e2c388;
-    font-weight: bold;
     text-align: start;
 }
 
@@ -222,7 +218,7 @@ h2 {
 #mission p,
 #next-matches p #recent-matches p {
     padding: 0 20px;
-    text-align: justify;
+    text-align: start;
 }
 
 /* span element */
@@ -232,7 +228,7 @@ h2 {
 
 #about-team {
     margin-top: 0;
-    height: 480px;
+    height: 500px;
     width: 100%;
     background: url("../images/about-us.jpg") no-repeat center center/cover;
     box-shadow: 0px 4px 8px rgba(148, 161, 18, 0.9);
@@ -242,6 +238,10 @@ h2 {
 #mission h2 {
     margin-top: 10px;
     text-align: center;
+}
+
+#our-story {
+    margin-bottom: 20px;
 }
 
 /* Override heading 2 */
@@ -259,7 +259,7 @@ table {
 th,
 td {
     padding: 8px;
-    text-align: center;
+    text-align: start;
     border-bottom: 1px solid #e2c388;
 }
 
@@ -314,8 +314,8 @@ fieldset {
 
 #sign-up {
     color: #e2c388;
-    font-weight: bold;
-    background-color: rgba(54, 91, 109, 0.6);
+    /* font-weight: bold; */
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 30px;
 }
 
@@ -334,10 +334,9 @@ label {
     background: transparent;
     width: 80%;
     color: #ffffff;
-    font-weight: bold;
+    /* font-weight: bold; */
     height: 25px;
     margin: 5px 0 20px 5px;
-    ;
     border: 1px solid #94A112;
     border-radius: 2px;
     padding: 0 5px;
@@ -358,23 +357,22 @@ form .join-button {
     text-decoration: none;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #94A112;
-    color: #365B6D;
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.2s;
-    ;
 }
 
 #map-outer {
-    padding: 20px 0 30px 0;
-    background-color: rgba(148, 161, 18, 0.6);
+    padding: 20px 0 30px 0 ;
+    background-color: #94A112;
 }
 
 #map-outer h2 {
-    color: #365B6D;
+    color: black;
     text-align: center;
 }
 
@@ -391,7 +389,7 @@ iframe {
 
 /* Footer */
 #footer-links {
-    background-color: #BEC6C9;
+    background-color: black;
     text-align: unset;
     padding: 10px 0;
     display: flex;
@@ -453,9 +451,13 @@ iframe {
         justify-content: center;
     }
 
+    #hero a {
+        top: 45%;
+    }
+
     .container {
         padding: 0 0 0 0;
-        margin: 200px 0px 400px 0px;
+        margin: 200px 0px 430px 0px;
     }
 
     #why-us,
@@ -477,11 +479,10 @@ iframe {
         width: 75%;
     }
 
-    #schedule>div,
-    #mission>#our-story {
+    #schedule>div {
         text-align: end;
         align-self: flex-end;
-        padding: 0 20px;
+        padding: 0 200px 0 0;
     }
 
     #why-us~hr {
@@ -500,6 +501,12 @@ iframe {
 
     #mission p {
         padding: 0;
+    }
+
+    #mission>#our-story {
+        text-align: end;
+        align-self: flex-end;
+        padding: 0 20px;
     }
 
     #mission #our-value {
@@ -551,13 +558,13 @@ iframe {
     }
 
     #hero a {
-        left: 17.5%;
-        top: 55%;
+        left: 47.5%;
+        top: 50%;
     }
 
     .container {
         padding: 0 10px;
-        margin: 125px 0 200px 100px;
+        margin: 100px 300px 250px 590px;
     }
 
     #why-us {
@@ -569,7 +576,7 @@ iframe {
     }
 
     #about-team {
-        background-position: bottom;
+        background-position: top;
         height: 620px;
     }
 

@@ -218,7 +218,13 @@ h2 {
 #mission p,
 #next-matches p #recent-matches p {
     padding: 0 20px;
-    text-align: start;
+    text-align:start;
+    display:contents;
+}
+
+/* Override text alignment */
+#reasons {
+    text-align: justify !important;
 }
 
 /* span element */
